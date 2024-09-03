@@ -67,6 +67,3 @@ if __name__ == "__main__":
     with open("dom.json","w+") as f:
         d = Domson(True).toJson(response.text)
         f.write(str(d))
-
-
-    # print("response: ", d)
